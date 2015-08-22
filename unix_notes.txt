@@ -1,0 +1,75 @@
+subl moving_around.txt
+pwd
+ls
+mv history.txt moving_around.txt //Initally named the history dump "history.txt", changing name to "moving_around.txt"
+subl history.txt
+history >> history.txt
+more text
+history > history.txt
+cd
+history | less
+history
+history 12
+history 5  //I was surprised this did not seem to work. It returned a single line, not the last 5 commands.
+ls ../..
+ls ...      //Just testing this one out to be sure...
+ls ..
+ls .
+ls /Applications/
+ls /
+cd ~
+cd /
+ls ~        //Testing out listing the contents of my home directory from a different directory.
+cd eBooks/
+cd Dropbox
+cd ../..
+pw
+cd ..
+ls -l
+cd Photo_Exports/
+cd Documents
+cd Library/
+ls -lF
+ls -ltrF  //Interesting command. I like the additional symbols as a visual guide.
+ls -r
+man cd
+mkdir My Dir
+ls
+cd /users/KSGifford/
+ls -Ul
+ls -U
+ls -Ss
+cd Docs
+ls man
+ls -ltrP
+man pwd
+ls -ltr
+ls -lt
+ls -t
+echo $PATH
+subl etc/paths
+subl ~/.config/fish/config.fish
+subl config.fish
+subl fish.config
+man
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'ksgifford@gmail.com'
+git config --global user.name 'ksgifford'
+git --version
+brew install git
+subl /etc/paths
+echo $EDITOR
+echo $Editor
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+ls -G
+uname
