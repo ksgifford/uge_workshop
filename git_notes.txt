@@ -4,3 +4,4 @@ You add files to the Git repository by staging them using the "git add" command.
 When you modify a tracked file, you need to manually re-stage it every time to make sure that all your changes get reflected in the Git repository. This is an hour-by-hour type of update.
 When you have completed your various changes, you commit them by using the "git commit" command. Be sure to include a message to explain is included in your latest commit. This is a bigger change and is not done as often as staging.
 
+Setting up remote repositories allows you to push local changes to Github and fetch online changes from other users to your local repository.
