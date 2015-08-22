@@ -1,3 +1,5 @@
+//Guess what I just learned? If you use the -la flag on an ls, you can see all the hidden files in a directory, including the .git directory that establishes a Git repository.
+
 subl moving_around.txt
 pwd
 ls
